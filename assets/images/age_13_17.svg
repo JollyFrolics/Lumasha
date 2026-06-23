@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Face -->
+  <circle cx="50" cy="50" r="45" fill="#FFE0B5" stroke="#A55D2A" stroke-width="2"/>
+  <!-- Hair (stylish) -->
+  <path d="M18 50 Q15 25 35 18 Q50 12 65 18 Q85 25 82 50 Q80 30 65 25 Q50 20 35 25 Q20 30 18 50Z" fill="#2E241F"/>
+  <path d="M25 48 L28 20 L35 24Z" fill="#2E241F"/>
+  <path d="M75 48 L72 20 L65 24Z" fill="#2E241F"/>
+  <!-- Eyes (slightly narrowed) -->
+  <ellipse cx="35" cy="52" rx="5" ry="3.5" fill="#1A1108"/>
+  <ellipse cx="65" cy="52" rx="5" ry="3.5" fill="#1A1108"/>
+  <!-- Eyebrows (straight) -->
+  <line x1="27" y1="45" x2="43" y2="45" stroke="#1A1108" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="57" y1="45" x2="73" y2="45" stroke="#1A1108" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Small smirk -->
+  <path d="M42 70 Q50 76 58 70" fill="none" stroke="#1A1108" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

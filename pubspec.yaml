@@ -28,10 +28,11 @@ dependencies:
   just_audio: ^0.9.40
   flutter_animate: ^4.5.0
   confetti: ^0.7.0
-  flutter_svg: ^2.0.10
+  flutter_svg: ^2.3.0
   cached_network_image: ^3.3.1
 
   redis: ^4.0.0
+  flutter_dotenv: ^6.0.1
 
 dev_dependencies:
   flutter_test:
@@ -46,11 +47,19 @@ flutter:
   uses-material-design: true
 
   assets:
+    - .env
     - assets/audio/vowels/
     - assets/audio/consonants/
     - assets/audio/songs/
     - assets/images/
     - assets/images/badges/
+    - assets/images/Boat.svg
+    - assets/images/Journey.svg
+    - assets/images/Child.svg
+    - assets/images/Friend.svg
+    - assets/images/Shakti.svg
+    - assets/images/Arasa.svg
+    - assets/images/Exercise.svg
 
   fonts:
     - family: NotoSansDevanagari

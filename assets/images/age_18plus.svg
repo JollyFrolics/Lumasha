@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Face -->
+  <circle cx="50" cy="50" r="45" fill="#F8D5A3" stroke="#985A1C" stroke-width="2"/>
+  <!-- Hair (short, professional) -->
+  <path d="M15 48 Q18 15 50 12 Q82 15 85 48 Q82 20 50 18 Q18 20 15 48Z" fill="#3C2A1F"/>
+  <path d="M18 30 L14 20 L22 23Z" fill="#3C2A1F"/>
+  <path d="M82 30 L86 20 L78 23Z" fill="#3C2A1F"/>
+  <!-- Eyes -->
+  <circle cx="34" cy="52" r="4" fill="#0E0804"/>
+  <circle cx="66" cy="52" r="4" fill="#0E0804"/>
+  <!-- Eye crease (mature) -->
+  <path d="M28 47 L40 50" stroke="#985A1C" stroke-width="1.5" fill="none"/>
+  <path d="M60 50 L72 47" stroke="#985A1C" stroke-width="1.5" fill="none"/>
+  <!-- Gentle smile -->
+  <path d="M40 72 Q50 80 60 72" fill="none" stroke="#0E0804" stroke-width="3" stroke-linecap="round"/>
+</svg>

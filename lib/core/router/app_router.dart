@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:lumasha/features/onbording/presentation/onbording_screen.dart';
 import 'package:lumasha/features/splash/splash.dart';
 import 'package:lumasha/widgets/lumasha_bottom_nav.dart';
 
@@ -19,6 +20,11 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         path: '/',
         parentNavigatorKey: _rootNavigatorKey,
         builder: (_, __) => const SplashScreen(),
+      ),
+      GoRoute(
+        path: '/onboarding',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (_, __) => const OnboardingScreen(),
       ),
     ],
     errorBuilder: (context, state) => Scaffold(
