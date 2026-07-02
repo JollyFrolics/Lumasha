@@ -5,7 +5,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lumasha/widgets/home_bottom_nav.dart';
 
-import '../../../../core/theme/app_colors.dart'; import '../provider/home_provider.dart';
+import '../../../../core/theme/app_colors.dart'; import '../../../widgets/lumasha_bottom_nav.dart';
+import '../provider/home_provider.dart';
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
 
@@ -31,7 +32,7 @@ class HomeScreen extends ConsumerWidget {
           ],
         ),
       ),
-      bottomNavigationBar: const HomeBottomNav(),
+      bottomNavigationBar: const LumashaBottomNav(),
     );
   }
 }
